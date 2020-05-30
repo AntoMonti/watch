@@ -64,7 +64,6 @@ group :test do
   gem 'json_spec', '~> 1.1', '>= 1.1.5'
   gem 'launchy', '~> 2.5'
   gem 'shoulda-matchers', '~> 4.3'
-  gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
 end
