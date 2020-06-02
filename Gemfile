@@ -34,6 +34,8 @@ gem 'oj', '~> 3.10', '>= 3.10.6'
 gem 'oj_mimic_json', '~> 1.0', '>= 1.0.1'
 gem 'pg', '~> 1.2', '>= 1.2.3'
 gem 'uglifier', '~> 4.2'
+gem 'meta-tags', '~> 2.13'
+gem 'breadcrumbs_on_rails', '~> 4.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
