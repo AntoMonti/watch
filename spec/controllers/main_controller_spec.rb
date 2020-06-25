@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe MainController, type: :controller do
   describe 'GET #index' do
     let(:brands) { create_list :brand, 3 }
-    let(:hits)   { create_list :product, 8}
+    let(:hits)   { create_list :product, 8 }
 
     before { get :index }
 
@@ -18,5 +18,5 @@ RSpec.describe MainController, type: :controller do
         expect(assigns(:hits)).to match_array(hits)
       end
     end
-  end  
+  end
 end

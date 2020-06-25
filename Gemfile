@@ -26,15 +26,15 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 # gem 'bootsnap', '>= 1.4.2', require: false
 gem 'activestorage', '~> 6.0', '>= 6.0.3.1'
+gem 'breadcrumbs_on_rails', '~> 4.0'
 gem 'coffee-rails', '~> 5.0'
-gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
+gem 'faker', git: 'https://github.com/faker-ruby/faker.git', branch: 'master'
+gem 'meta-tags', '~> 2.13'
 gem 'oj', '~> 3.10', '>= 3.10.6'
 gem 'oj_mimic_json', '~> 1.0', '>= 1.0.1'
 gem 'pg', '~> 1.2', '>= 1.2.3'
-gem 'uglifier', '~> 4.2'
-gem 'meta-tags', '~> 2.13'
-gem 'breadcrumbs_on_rails', '~> 4.0'
 gem 'rubocop-rails', require: false
+gem 'uglifier', '~> 4.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -50,8 +50,8 @@ end
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'web-console', '>= 3.3.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
