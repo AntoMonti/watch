@@ -26,10 +26,8 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 # gem 'bootsnap', '>= 1.4.2', require: false
 gem 'activestorage', '~> 6.0', '>= 6.0.3.1'
-gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'coffee-rails', '~> 5.0'
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
-gem 'jquery-rails', '~> 4.4'
 gem 'oj', '~> 3.10', '>= 3.10.6'
 gem 'oj_mimic_json', '~> 1.0', '>= 1.0.1'
 gem 'pg', '~> 1.2', '>= 1.2.3'
@@ -42,7 +40,6 @@ group :development, :test do
   # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'database_cleaner', '~> 1.8', '>= 1.8.5'
   gem 'factory_bot_rails', '~> 5.2'
-  gem 'pg', '~> 1.2', '>= 1.2.3'
   gem 'pry', '~> 0.13.1'
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.4'
   gem 'rb-readline', '~> 0.5.5'
