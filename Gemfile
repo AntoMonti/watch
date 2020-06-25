@@ -33,7 +33,7 @@ gem 'meta-tags', '~> 2.13'
 gem 'oj', '~> 3.10', '>= 3.10.6'
 gem 'oj_mimic_json', '~> 1.0', '>= 1.0.1'
 gem 'pg', '~> 1.2', '>= 1.2.3'
-gem 'rubocop-rails', require: false
+gem 'rubocop-rails', '~> 2.6', require: false
 gem 'uglifier', '~> 4.2'
 
 group :development, :test do
