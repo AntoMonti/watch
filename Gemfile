@@ -34,6 +34,7 @@ gem 'pg', '~> 1.2', '>= 1.2.3'
 gem 'uglifier', '~> 4.2'
 gem 'meta-tags', '~> 2.13'
 gem 'breadcrumbs_on_rails', '~> 4.0'
+gem 'rubocop-rails', require: false
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
