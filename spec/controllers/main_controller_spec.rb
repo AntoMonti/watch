@@ -9,7 +9,7 @@ RSpec.describe MainController, type: :controller do
 
     context 'required output per page' do
       it 'render to index template' do
-        is_expected.to render_template :index
+        should render_template :index
       end
       it 'instance var brands include only brands' do
         expect(assigns(:brands)).to match_array(brands)
