@@ -66,6 +66,8 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
+    ancestry (3.0.7)
+      activerecord (>= 3.2.0)
     ast (2.4.1)
     bindex (0.8.1)
     bootsnap (1.4.6)
@@ -297,6 +299,7 @@ PLATFORMS
 
 DEPENDENCIES
   activestorage (~> 6.0, >= 6.0.3.1)
+  ancestry (~> 3.0, >= 3.0.7)
   bootsnap (>= 1.4.2)
   breadcrumbs_on_rails (~> 4.0)
   byebug
