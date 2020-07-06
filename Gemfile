@@ -8,6 +8,7 @@ gem 'ancestry', '~> 3.0', '>= 3.0.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'breadcrumbs_on_rails', '~> 4.0'
 gem 'coffee-rails', '~> 5.0'
+gem 'devise', '~> 4.7', '>= 4.7.2'
 gem 'faker', git: 'https://github.com/faker-ruby/faker.git', branch: 'master'
 gem 'jbuilder', '~> 2.7'
 gem 'meta-tags', '~> 2.13'
