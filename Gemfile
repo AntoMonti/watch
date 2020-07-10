@@ -19,6 +19,7 @@ gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 gem 'rubocop-rails', '~> 2.6', require: false
 gem 'sass-rails', '>= 6'
+gem 'simple_form', '~> 5.0', '>= 5.0.2'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '~> 4.2'
 gem 'webpacker', '~> 4.0'
