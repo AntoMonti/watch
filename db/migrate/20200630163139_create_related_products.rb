@@ -3,7 +3,6 @@ class CreateRelatedProducts < ActiveRecord::Migration[6.0]
     create_table :related_products, id: false do |t|
       t.integer :product_id
       t.integer :related_id
-
     end
 
     insert <<-SQL.squish

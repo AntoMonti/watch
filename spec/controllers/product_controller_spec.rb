@@ -1,7 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe ProductController, type: :controller do
-
   describe 'GET #show' do
     let(:product) { create :product }
 
@@ -9,9 +8,8 @@ RSpec.describe ProductController, type: :controller do
 
     context 'show product' do
       it 'render show view' do
-        should render_template :show 
+        should render_template :show
       end
-
     end
   end
 end

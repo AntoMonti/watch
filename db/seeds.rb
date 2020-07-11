@@ -29,7 +29,6 @@ end
 
 # table categories
 
-
 women = Category.create(title: 'Women', bytitle: 'women', keywords: 'women', description: 'for women')
 electronic2 = Category.create(title: 'Electronic', bytitle: 'electronic2', keywords: 'electronic', description: 'electronic', parent: women)
 mechanical2 = Category.create(title: 'Mechanical', bytitle: 'mechanical2', keywords: 'mechanical', description: 'mechanical', parent: women)
