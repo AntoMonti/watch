@@ -4,8 +4,8 @@ Rails.application.routes.draw do
   resources :product, only: :show
   resources :category, only: :show
 
-  resource :carts, only: %i[show destroy] do
-    resources :items, only: %i[show create destroy]
+  resource :cart, only: %i[show destroy] do
+    resources :items, only: %i[create destroy]
   end
 
   resources :search, only: :index
