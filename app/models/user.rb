@@ -4,7 +4,7 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
          :omniauthable, omniauth_providers: [:facebook]
-
+  has_many :authorization
   has_one :cart, dependent: :destroy
   validates :email, presence: true
   validates :password, presence: true
