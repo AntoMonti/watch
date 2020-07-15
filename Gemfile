@@ -23,6 +23,8 @@ gem 'simple_form', '~> 5.0', '>= 5.0.2'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '~> 4.2'
 gem 'webpacker', '~> 4.0'
+gem 'omniauth', '~> 1.9', '>= 1.9.1'
+gem 'omniauth-facebook', '~> 6.0'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
