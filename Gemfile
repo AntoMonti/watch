@@ -15,7 +15,7 @@ gem 'meta-tags', '~> 2.13'
 gem 'oj', '~> 3.10', '>= 3.10.6'
 gem 'oj_mimic_json', '~> 1.0', '>= 1.0.1'
 gem 'pg', '~> 1.2', '>= 1.2.3'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.2'
 gem 'rubocop-rails', '~> 2.6', require: false
 gem 'sass-rails', '>= 6'
